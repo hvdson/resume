@@ -1,56 +1,36 @@
 {
   "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "name":"James Caraang",
+    "occupation":"A Full Stack Creative.",
+    "description": "Building things takes both a creative and logical mind. Through my experience as a Web Developer and Creative Entrepreneur, I've gained insights and knowledge that allows me to solve problems in creative ways.",
+    "image":"profilepic.png",
+    "bio": "Programming is like fine art – it takes time, practice and dedication to produce beautiful code. As a programmer with a background in music and art, I understand the challenge of articulating complex ideas in a team setting with collaborators. This pain point is my motivation for writing clean, dry, concise code that makes people shed a tear (in a good way). I am a quick learner who is highly adaptive and able to work in stressful situations, whether in a team setting or in a remote, autonomous setting. I hope to gain experience in the workplace that will allow me to showcase my communication skills and further expand my development knowledge.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "jamescaraang@gmail.com",
+    "phone": "778-697-1893",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"1390 East 23rd Avenue",
+      "city":"Vancouver",
+      "state":"BC",
+      "zip": "V5V1Z2"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/in/jamescaraang/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"http://instagram.com/hvdsonofficial",
         "className":"fa fa-instagram"
       },
       {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"http://github.com/hvdson",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
@@ -58,60 +38,71 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Lighthouse Labs",
+        "degree": "Web Development Bootcamp",
+        "graduated": "January 2018 Cohort",
+        "description": ""
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Unversity Of British Columbia",
+        "degree": "Computer Science Major",
+        "graduated":"January 2018",
+        "description":""
+      },
+      {
+        "school":"Macewan University",
+        "degree":"Computer Science Major",
+        "graduated":"January 2014 - January 2016",
+        "description":""
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Nani Beats LTD.",
+        "title": "Co-Founder",
+        "years": "March 2016 - November 2020",
+        "description": "Created a Single Page Application using MongoDB, Express, React and Node.js stack with the intent to create a subscription and music streaming platform, allowing users to download music to use in their own projects. Integration of the AWS SDK was used as cloud storage for digital assets and Stripe as payment gateway. Redux used for application state management. \nEngineered recording sessions, and produced musical sound tracks for various artists. \nActively solicited prospective clients and used managed marketing strategies to draw a diverse client base. \nNegotiated pricing favorable to clients and company."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Smashpotatoes Interactive Inc.",
+        "title":"Software Intern",
+        "years":"April 2018 - August 2018",
+        "description": "Analyzed existing codebase to determine the functionality of the trivia game software being used by clients in the hospitality industry. \nHelped refactor and improve legacy LAMP stack codebase to a newer stack using MongoDB, Express, React and Node.js. \nAided in building the software API to send and retrieve data from AWS. \nDeveloped data scraper in Python to aggregate information from potential clients all across Canada."
       }
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
+        "name": "CSS",
+        "level": "70%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"Git",
+        "level":"70%"
+      },
+      {
+        "name":"Photoshop",
+        "level":"80%"
       },
       {
         "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
         "level":"80%"
       },
+
       {
-        "name":"VueJs",
-        "level":"50%"
+        "name":"HTML5",
+        "level":"70%"
+      },
+      {
+        "name":"Python",
+        "level":"60%"
+      },
+      {
+        "name": "Express",
+        "level": "60%"
       },
       {
         "name":"MongoDB",
-        "level":"80%"
+        "level":"50%"
       }
     ]
   },
