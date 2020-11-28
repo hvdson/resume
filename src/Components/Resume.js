@@ -18,14 +18,19 @@ class Resume extends Component {
             {parseBulletPoints(work.description)}
         </div>
       })
-      var skills = this.props.data.skills.map(function(skills){
+      var codingSkills = this.props.data.codingskills.map(function(skills){
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
+
+      var creativeSkills = this.props.data.creativeskills.map(function(skills){
+        var className = 'bar-expand '+skills.name.toLowerCase();
+        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+      })      
     }
 
     return (
-      <section id="resume">
+    <section id="resume">
 
       <div className="row education">
          <div className="three columns header-col">
@@ -43,7 +48,6 @@ class Resume extends Component {
 
 
       <div className="row work">
-
          <div className="three columns header-col">
             <h1><span>Work</span></h1>
          </div>
@@ -51,29 +55,31 @@ class Resume extends Component {
          <div className="nine columns main-col">
           {work}
         </div>
-    </div>
+      </div>
 
 
 
       <div className="row skill">
+        <div className="five columns">
+          <h1 className="skill-header"><span>Coding Skills</span></h1>
+          <div className="bars">
+            <ul className="skills">
+              {codingSkills}
+            </ul>
+          </div>
+        </div>
 
-         <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
-
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
-			</div>
+        <div className="five columns">
+          <h1 className="skill-header"><span>Creative Skills</span></h1>
+          <div className="bars">
+            <ul className="skills">
+              {creativeSkills}
+            </ul>
+          </div>
+        </div>
+    
       </div>
-   </section>
+    </section>
     );
   }
 }
