@@ -46,7 +46,7 @@
       {
         "school":"Unversity Of British Columbia",
         "degree": "Computer Science Major",
-        "graduated":"January 2018",
+        "graduated": "January 2017 - January 2018",
         "description":""
       },
       {
@@ -130,6 +130,18 @@
   "portfolio":{
     "projects": [
       {
+        "title": "Nani Beats Website",
+        "category": "Single Page Application using MongoDB, Express, React and Node.js stack with the intent to create a subscription and music streaming platform.",
+        "image": "nani-beats-website.png",
+        "url": "https://github.com/hvdson/nani-beats-website"
+      },
+      {
+        "title": "Drum Machine",
+        "category": "A drum machine built with the tone.js package made to mimic the aesthetic of Ableton.",
+        "image": "drum-machine.png",
+        "url": "https://github.com/hvdson/tone-js-sandbox"
+      },
+      {
         "title":"Moody",
         "category": "An image and facial recognition app that returns a playlist depending on a given image. Utilizes Amazon's Rekognition for machine learning and Spotify's API for a playlist.",
         "image":"moody.png",
@@ -156,7 +168,7 @@
       {
         "title":"TODO.",
         "category": "Smart to-do list app that categorizes your task into one of four categories using Bayes-Classifier and provides external links through the Google-query API.",
-        "image":"todo.png",
+        "image":"todo.jpg",
         "url": "https://github.com/lauradew/toDoList"
       }
     ]

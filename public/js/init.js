@@ -150,7 +150,6 @@
                '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
 
       $.ajax({
-
 	      type: "POST",
 	      url: "inc/sendEmail.php",
 	      data: data,
@@ -161,7 +160,7 @@
                $('#image-loader').fadeOut();
                $('#message-warning').hide();
                $('#contactForm').fadeOut();
-               $('#message-success').fadeIn();   
+               $('#message-success').fadeIn();
             }
             // There was an error
             else {
