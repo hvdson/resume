@@ -88,6 +88,10 @@
         "level": "70%"
       },
       {
+        "name": "Javascript",
+        "level": "80%"
+      },
+      {
         "name": "MongoDB",
         "level": "50%"
       },
@@ -96,7 +100,7 @@
         "level": "60%"
       },
       {
-        "name":"ReactJs",
+        "name":"React",
         "level":"80%"
       }
     ],
@@ -126,34 +130,34 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Moody",
+        "category": "An image and facial recognition app that returns a playlist depending on a given image. Utilizes Amazon's Rekognition for machine learning and Spotify's API for a playlist.",
+        "image":"moody.png",
+        "url": "https://github.com/hvdson/moodring"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Jungle",
+        "category": "A mini e-commerce application built with Ruby on Rails with integration of the Stripe API for handling user transactions.",
+        "image":"jungle-rails.png",
+        "url": "https://github.com/hvdson/jungle-rails"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Tweeter",
+        "category": "Tweeter is a a simplifed single-page Twitter clone using HTML, CSS, JS, jQuery and AJAX on the front-end, and Node, Express and MongoDB on the back-end.",
+        "image": "tweeter.png",
+        "url": "https://github.com/hvdson/tweeter"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Chatty",
+        "category": "A single page messaging app. React used for the front end and WebSockets on the back for real-time messaging functionality.",
+        "image":"chatty.png",
+        "url": "https://github.com/hvdson/chatty-app"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"TODO.",
+        "category": "Smart to-do list app that categorizes your task into one of four categories using Bayes-Classifier and provides external links through the Google-query API.",
+        "image":"todo.png",
+        "url": "https://github.com/lauradew/toDoList"
       }
     ]
   },
