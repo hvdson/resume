@@ -14,7 +14,6 @@
       "state":"BC",
       "zip": "V5V1Z2"
     },
-    "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
@@ -44,7 +43,7 @@
         "description": ""
       },
       {
-        "school":"Unversity Of British Columbia",
+        "school":"University Of British Columbia",
         "degree": "Computer Science Major",
         "graduated": "January 2017 - January 2018",
         "description":""
@@ -170,18 +169,6 @@
         "category": "Smart to-do list app that categorizes your task into one of four categories using Bayes-Classifier and provides external links through the Google-query API.",
         "image":"todo.jpg",
         "url": "https://github.com/lauradew/toDoList"
-      }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
       }
     ]
   }
